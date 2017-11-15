@@ -1,0 +1,7 @@
+Num primeiro momento, assumir que o VNA, IPCA projetado e todos os dias úteis
+  necessários ao cálculo serão fornecidos.
+
+bizdays
+-------
+https://pypi.python.org/pypi/bizdays/
+https://pypi.python.org/pypi/feriados-anbima/0.1.0
