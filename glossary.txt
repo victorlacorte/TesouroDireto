@@ -1,0 +1,6 @@
+English - Portuguese
+Maturity date - Data de vencimento
+Quotation - Cotação
+Settlement Date - Data de liquidação
+UNV (Updated Nominal Value) - VNA (Valor Nominal Atualizado)
+Yield (to maturity) - Taxa (de juros anual)
