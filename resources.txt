@@ -5,3 +5,11 @@ bizdays
 -------
 https://pypi.python.org/pypi/bizdays/
 https://pypi.python.org/pypi/feriados-anbima/0.1.0
+
+Metodologia de cálculo: inglês e português, respectivamente
+http://www.tesouro.fazenda.gov.br/documents/10180/267214/Metodologia_Pre%C3%A7os_ingles/465de67b-4f74-40ad-b94d-8f68b47e639d
+http://www.tesouro.fazenda.gov.br/documents/10180/378339/Metodologia+de+C%EF%BF%BDlculo.pdf/9667c47f-b247-4e17-b2cd-2992f0381d69
+
+
+Características dos títulos públicos
+http://www.tesouro.fazenda.gov.br/gestao-da-divida-publica-federal?p_p_auth=VEdSMh2M&p_p_id=101&p_p_lifecycle=0&p_p_state=maximized&p_p_mode=view&_101_struts_action=%2Fasset_publisher%2Fview_content&_101_assetEntryId=227584&_101_type=content&_101_urlTitle=caracteristicas-dos-titulos-publicos&redirect=http%3A%2F%2Fwww.tesouro.fazenda.gov.br%2Fhome%3Fp_p_id%3D3%26p_p_lifecycle%3D0%26p_p_state%3Dmaximized%26p_p_mode%3Dview%26_3_keywords%3Dt%25C3%25ADtulo%2Bp%25C3%25BAblico%26_3_struts_action%3D%252Fsearch%252Fsearch%26_3_redirect%3D%252Fhome
