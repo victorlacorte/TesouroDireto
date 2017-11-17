@@ -1,17 +1,17 @@
 from tdcalc.helpers import truncate
 
-def price(ytm, bd):
+
+def price(ytm, bdays):
     '''
-        Return the price of a National Treasury Bill (LTN)
+        price(...) -> float truncated to the 6th decimal place
 
-
-        ytm (yield to maturity) - business days / 252 per year convention,
-           truncated to the 4th decimal place. Known on purchase
-
-        bd - number of business days between the settlement date, inclusive,
-           and the maturity date (exclusive)
+        Return the price of a National Treasury Bill (LTN) with ytm yield (to
+           maturity) and bdays business days between the settlement date,
+           inclusive, and the maturity date (exclusive). The yield follows
+           a business days / 252 per year convention.
     '''
-    unv = 1000  # always 1,000 in this case
-    delta = truncate(bd / 252, 14)
-    price = unv / pow(1 + ytm, delta)
+    nominal_value = 1000  # always 1,000 in this case
+    ytm = truncate(ytm, 4)  # we must assure it is truncated to this precision
+    years = truncate(bdays / 252, 14)
+    price = nominal_value / pow(1 + ytm, years)
     return truncate(price, 6)
